@@ -17,4 +17,6 @@ Studying computer engineering and software development at [Insper](https://www.i
 </div>
 
 ![Gabriel's Github Stats](https://github-readme-stats.vercel.app/api?username=gabrielmmh&count_private=true&show_icons=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rusty-sj&hide=TeX&layout=compact)
+
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=gabrielmmh.gabrielmmh)
