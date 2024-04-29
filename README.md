@@ -6,7 +6,7 @@
 
 <!-- [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](messageto:+556599873246) -->
 
-Hi there, I'm Gabriel Hermida, a Junior Software Developer from Brazil.
+Hi, I'm Gabriel Hermida, a Junior Software Developer from Brazil.
 
 Studying computer engineering and software development at [Insper](https://www.insper.edu.br/en/) since 2021, I've experienced a lot of different technologies and frameworks, primarily languages like Python, C, JavaScript and frameworks like React Native, Next and Jupyter Notebooks.
 
