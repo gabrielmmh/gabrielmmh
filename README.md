@@ -8,7 +8,7 @@
 
 Hi, I'm Gabriel Hermida, a Junior Software Developer from Brazil.
 
-Studying computer engineering and software development at [Insper](https://www.insper.edu.br/en/) since 2021, I've experienced a lot of different technologies and frameworks, primarily languages like Python, C, JavaScript and frameworks like React Native, Next and Jupyter Notebooks.
+Studying computer engineering and software development at [Insper](https://www.insper.edu.br/en/) since 2021, I've experienced a lot of different technologies and frameworks, primarily languages like Python, C, JavaScript and frameworks like React Native, NextJS and Jupyter Notebooks.
 
 <h3 align="center">Languages, Frameworks and Tools:</h3>
 
