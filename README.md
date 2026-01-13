@@ -29,7 +29,7 @@ Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
 **[news_summarizer](https://github.com/gabrielmmh/news_summarizer)** - Automated pipeline that scrapes news, generates AI summaries, and distributes via email
 > Airflow | GPT-4o | PostgreSQL | Docker | MinIO
 
-**[olist-data-pipeline](https://github.com/gabrielmmh/olist-data-pipeline)** - E-commerce data pipeline with Medallion Architecture (1.35M records)
+**[olist-medallion-pipeline](https://github.com/gabrielmmh/olist-medallion-pipeline)** - E-commerce data pipeline with Medallion Architecture (1.35M records)
 > Prefect | RabbitMQ | PostgreSQL | Grafana | [Video Demo](https://www.youtube.com/watch?v=1vN0BAf2dYQ)
 
 **[redes_neurais](https://github.com/gabrielmmh/redes_neurais)** - Neural Networks portfolio: Perceptrons, MLPs, VAEs, and generative models
