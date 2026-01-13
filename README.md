@@ -1,31 +1,59 @@
 <div align="center">
 
-### Hi there! 👋🏻
+# Gabriel Hermida
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-hermida-1a42a2232/) [![Outlook Badge](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:gabrielmmh@al.insper.edu.br) [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielhermida948@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-hermida-1a42a2232/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielhermida948@gmail.com)
 
-<!-- [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](messageto:+556599873246) -->
+**AI & Automation Engineer**
 
-Hi, I'm Gabriel Hermida, a Junior Software Developer from Brazil.
+Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
 
-Studying computer engineering and software development at [Insper](https://www.insper.edu.br/en/) since 2021, I've experienced a lot of different technologies and frameworks, primarily languages like Python, C, JavaScript and frameworks like React Native, NextJS and Jupyter Notebooks.
-
-<h3 align="center">Languages, Frameworks and Tools:</h3>
-
-![Python Badge](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![C Badge](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++ Badge](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next Badge](https://img.shields.io/badge/Next-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Node Badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Django Badge](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![MySQL Badge](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite Badge](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind Badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![VHDL Badge](https://img.shields.io/badge/VHDL-7A7A7A?style=for-the-badge&logo=vhdl&logoColor=white)
 </div>
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<p align=center>
-  <div align=center>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img height=160 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielmmh&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5" />
-    </a>
-  </div>
-  <br>
+---
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gabrielmmh&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p>
+### What I'm Working On
 
-<hr>
+- Building AI support agents (30% of tickets automated)
+- Repository monitoring with AI-generated summaries, notifications, and documentation updates
+- Demo environment setup and tutorial production
+
+### Featured Projects
+
+**AI & Machine Learning**
+
+**[askMyDoc](https://github.com/gabrielmmh/askMyDoc)** - RAG application that extracts text from PDFs via OCR and enables Q&A with AI
+> Next.js 15 | NestJS | PostgreSQL | LLaMA 3.2 | [Live Demo](https://ask-my-doc-frontend.vercel.app)
+
+**[news_summarizer](https://github.com/gabrielmmh/news_summarizer)** - Automated pipeline that scrapes news, generates AI summaries, and distributes via email
+> Airflow | GPT-4o | PostgreSQL | Docker | MinIO
+
+**[olist-data-pipeline](https://github.com/gabrielmmh/olist-data-pipeline)** - E-commerce data pipeline with Medallion Architecture (1.35M records)
+> Prefect | RabbitMQ | PostgreSQL | Grafana | [Video Demo](https://www.youtube.com/watch?v=1vN0BAf2dYQ)
+
+**[redes_neurais](https://github.com/gabrielmmh/redes_neurais)** - Neural Networks portfolio: Perceptrons, MLPs, VAEs, and generative models
+> TensorFlow/Keras | Stable Diffusion | [Documentation Site](https://gabrielmmh.github.io/redes_neurais/)
+
+**Cloud & Infrastructure**
+
+**[proj_cloud](https://github.com/gabrielmmh/proj_cloud)** - AWS infrastructure with CloudFormation, Auto Scaling, and CI/CD pipeline
+> AWS | ALB | EC2 | DynamoDB | CodePipeline | FastAPI | Locust
+
+**Functional Programming**
+
+**[PortfolioOptimizer](https://github.com/gabrielmmh/PortfolioOptimizer)** - Demonstrates that past-optimized portfolios have no predictive power for future returns
+> F# | Statistical analysis of optimization overfitting
+
+### Tech Stack
+
+**AI/LLMs:** Python, Langchain, Langfuse, OpenAI API, Guardrails AI
+**Backend:** TypeScript, NestJS, Node.js, .NET
+**Data:** Airflow, Prefect, PostgreSQL, SQL, ETL pipelines
+**Cloud/DevOps:** AWS, Docker, RabbitMQ, Grafana, Git
+
+---
+
+<div align="center">
+<sub>Most of my professional work lives in GitLab</sub>
+</div>
