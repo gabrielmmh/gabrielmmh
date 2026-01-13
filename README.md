@@ -48,8 +48,11 @@ Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
 ### Tech Stack
 
 **AI/LLMs:** Python, Langchain, Langfuse, OpenAI API, Guardrails AI
+
 **Backend:** TypeScript, NestJS, Node.js, .NET
+
 **Data:** Airflow, Prefect, PostgreSQL, SQL, ETL pipelines
+
 **Cloud/DevOps:** AWS, Docker, RabbitMQ, Grafana, Git
 
 ---
