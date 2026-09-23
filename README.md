@@ -5,9 +5,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-hermida-1a42a2232/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielhermida948@gmail.com)
 
-**AI & Automation Engineer**
+**AI Engineer**
 
-Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
+Computer Engineering @ [Insper](https://www.insper.edu.br/en/), class of 2026
 
 </div>
 
@@ -15,11 +15,23 @@ Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
 
 ### What I'm Working On
 
-- Building AI support agents (30% of tickets automated)
-- Repository monitoring with AI-generated summaries, notifications, and documentation updates
-- Demo environment setup and tutorial production
+AI Engineer at Paggo, a Brazilian B2B fintech:
+
+- The internal agent platform: the tool layer on [Eve](https://github.com/vercel/eve) and the inference router in front of it
+- Cost and execution tracing for the company's LLM agents in Langfuse
+- The company's Claude Code plugin, which encodes how we commit, review and ship code
+- Changelog Analyst: a serverless pipeline where LLM agents turn merged PRs into changelogs and keep customer-facing documentation current
+- Recently joined the ERP team, working on the inventory module
 
 ### Featured Projects
+
+**Reinforcement Learning**
+
+**[aps08-rl](https://github.com/gabrielmmh/aps08-rl)** - PPO generalization for coverage path planning under partial observability. Nine configurations; structured memory, frontier features and potential-based shaping took the 20×20 grid from 9% to 75% full coverage (96% of solvable maps), close to the scripted frontier ceiling
+> Stable-Baselines3 | MaskablePPO | Gymnasium | curriculum learning
+
+**RL for sepsis treatment in the ICU** - Six RL algorithms on the icu-sepsis MDP (716 states from MIMIC-III). Tabular PPO and Q-Learning reach ~85% survival against a 78% clinical baseline, and tabular beats deep within each family
+> Python | Gymnasium | PyTorch | [Video](https://www.youtube.com/watch?v=mH0rtjRgbXU) (course repo is private)
 
 **AI & Machine Learning**
 
@@ -45,18 +57,22 @@ Computer Engineering @ [Insper](https://www.insper.edu.br/en/) (graduating 2026)
 **[PortfolioOptimizer](https://github.com/gabrielmmh/PortfolioOptimizer)** - Demonstrates that past-optimized portfolios have no predictive power for future returns
 > F# | Statistical analysis of optimization overfitting
 
+### Open Source
+
+Issues filed on [vercel/eve](https://github.com/vercel/eve) while building on it at work. [#1972](https://github.com/vercel/eve/issues/1972) (serving Markdown-only dynamic skills without a sandbox session) was fixed upstream.
+
 ### Tech Stack
 
-**AI/LLMs:** Python, Langchain, Langfuse, OpenAI API, Guardrails AI
+**AI/LLMs:** Python, TypeScript, LangGraph, Eve, Langfuse, MCP, evals & benchmarks, RAG (pgvector, Neo4j), guardrails
 
-**Backend:** TypeScript, NestJS, Node.js, .NET
+**Backend:** TypeScript, Next.js, Node.js, NestJS, .NET
 
-**Data:** Airflow, Prefect, PostgreSQL, SQL, ETL pipelines
+**Data:** PostgreSQL, BigQuery, Airflow, Prefect, ETL pipelines
 
-**Cloud/DevOps:** AWS, Docker, RabbitMQ, Grafana, Git
+**Cloud/DevOps:** AWS (Lambda, SQS, SST), Docker, Grafana, PostHog, Git
 
 ---
 
 <div align="center">
-<sub>Most of my professional work lives in GitLab</sub>
+<sub>Professional work lives under my work account; this one holds personal and academic projects.</sub>
 </div>
