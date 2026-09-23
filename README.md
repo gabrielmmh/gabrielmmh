@@ -35,9 +35,6 @@ AI Engineer at Paggo, a Brazilian B2B fintech:
 
 **AI & Machine Learning**
 
-**[askMyDoc](https://github.com/gabrielmmh/askMyDoc)** - RAG application that extracts text from PDFs via OCR and enables Q&A with AI
-> Next.js 15 | NestJS | PostgreSQL | LLaMA 3.2 | [Live Demo](https://ask-my-doc-frontend.vercel.app)
-
 **[news_summarizer](https://github.com/gabrielmmh/news_summarizer)** - Automated pipeline that scrapes news, generates AI summaries, and distributes via email
 > Airflow | GPT-4o | PostgreSQL | Docker | MinIO
 
@@ -59,7 +56,9 @@ AI Engineer at Paggo, a Brazilian B2B fintech:
 
 ### Open Source
 
-Issues filed on [vercel/eve](https://github.com/vercel/eve) while building on it at work. [#1972](https://github.com/vercel/eve/issues/1972) (serving Markdown-only dynamic skills without a sandbox session) was fixed upstream.
+**[vercel/eve#1972](https://github.com/vercel/eve/issues/1972)** - While building on Eve at work, I found that Markdown-only dynamic skills opened a sandbox session they didn't need. The Eve team accepted it as an enhancement and shipped the fix in [#3669](https://github.com/vercel/eve/pull/3669) (September 2026): dynamic skills are now served from session state without touching the sandbox.
+
+**[vercel/eve#1890](https://github.com/vercel/eve/issues/1890)** - Exposing MCP tool annotations on `ApprovalContext`, still open.
 
 ### Tech Stack
 
