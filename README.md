@@ -2,12 +2,12 @@
 
 # Gabriel Hermida
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-hermida-1a42a2232/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielmmh/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielhermida948@gmail.com)
 
-**AI Engineer**
+**AI Engineer · LLM agents and evals**
 
-Computer Engineering @ [Insper](https://www.insper.edu.br/en/), class of 2026
+BSc in Computer Engineering, [Insper](https://www.insper.edu.br/en/) (2026)
 
 </div>
 
@@ -15,13 +15,19 @@ Computer Engineering @ [Insper](https://www.insper.edu.br/en/), class of 2026
 
 ### What I'm Working On
 
-AI Engineer at Paggo, a Brazilian B2B fintech:
+**AI Engineer at Paggo**, a Brazilian B2B fintech (Applied AI and ERP teams):
 
-- The internal agent platform: the tool layer on [Eve](https://github.com/vercel/eve) and the inference router in front of it
-- Cost and execution tracing for the company's LLM agents in Langfuse
-- The company's Claude Code plugin, which encodes how we commit, review and ship code
-- Changelog Analyst: a serverless pipeline where LLM agents turn merged PRs into changelogs and keep customer-facing documentation current
-- Recently joined the ERP team, working on the inventory module
+- **Changelog Analyst:** for every merged PR, an LLM workflow writes the changelog and updates the affected help-center articles (AWS Lambda, SQS, SST, Neo4j AuraDB). I replaced the Gemini step that decides whether a change matters to customers with Jev, a typed-decision model: 0.3 s instead of two 7 s calls, at 1/45 of the cost
+- **Internal Slack agent** on [Eve](https://github.com/vercel/eve): the tool layer with per-tool permissions, and the credential pool with failover in the inference router in front of it (145,000 LLM calls a month)
+- **Agent observability:** cost and execution tracing in Langfuse for the company's agent framework (125,000 LLM calls a month), with PII redaction and a CI check against untraced code
+- **Developer experience:** the plugin that standardizes how engineers use coding agents (Claude Code, Codex, Cursor, OpenCode and Eve)
+- **ERP data:** part of the integration that brings customer data from SAP Business One and Sienge over SQS, and the CDC feed of the budget planning module
+
+**Co-founder of Tocket**, escrow for university tickets (R$150,000 brokered by hand from 2022 to 2025):
+
+- **WhatsApp agent:** since October 2026, a TypeScript agent on Eve with OpenAI's gpt-6-luna. Deal state lives in Postgres, and no personal data reaches the model
+- **Response evals:** 53 cases against the real model, from single messages to full conversations with a scripted user, checking the reply, the summary shown before saving and the final database state, prompt injection included. They are how we set reasoning to low: same score, 36% fewer output tokens
+- The repository is private
 
 ### Featured Projects
 
@@ -58,17 +64,17 @@ AI Engineer at Paggo, a Brazilian B2B fintech:
 
 **[vercel/eve#1972](https://github.com/vercel/eve/issues/1972)** - While building on Eve at work, I found that Markdown-only dynamic skills opened a sandbox session they didn't need. The Eve team accepted it as an enhancement and shipped the fix in [#3669](https://github.com/vercel/eve/pull/3669) (September 2026): dynamic skills are now served from session state without touching the sandbox.
 
-**[vercel/eve#1890](https://github.com/vercel/eve/issues/1890)** - Exposing MCP tool annotations on `ApprovalContext`, still open.
+**[vercel/eve#1890](https://github.com/vercel/eve/issues/1890)** - I asked for MCP tool annotations to reach approval policies, so a policy can tell a read-only tool from a destructive one. Shipped in [#4596](https://github.com/vercel/eve/pull/4596) (October 2026).
 
 ### Tech Stack
 
-**AI/LLMs:** Python, TypeScript, LangGraph, Eve, Langfuse, MCP, evals & benchmarks, RAG (pgvector, Neo4j), guardrails
+**AI/LLMs:** Python, TypeScript, Eve, LangGraph, LangChain, Anthropic, OpenAI and Gemini APIs, MCP, RAG (pgvector, Neo4j), typed decisions (Jev, luna-decisions), evals and LLM-as-a-judge (Inspect AI), Langfuse, guardrails
 
-**Backend:** TypeScript, Next.js, Node.js, NestJS, .NET
+**Backend:** TypeScript, Next.js, Node.js, FastAPI, NestJS, .NET
 
 **Data:** PostgreSQL, BigQuery, Airflow, Prefect, ETL pipelines
 
-**Cloud/DevOps:** AWS (Lambda, SQS, SST), Docker, Grafana, PostHog, Git
+**Cloud/DevOps:** AWS (Lambda, SQS, S3, SST), Terraform, Docker, GitHub Actions, Grafana, PostHog
 
 ---
 
